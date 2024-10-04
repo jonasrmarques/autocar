@@ -1,0 +1,42 @@
+.header{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+footer{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.auto-card{
+    background-color: aqua;
+    width: 10rem;
+    padding: 18px;
+
+}
+
+form {
+    display: flex;
+
+}
+
+form, .form-card{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    gap: 20px;
+}
+

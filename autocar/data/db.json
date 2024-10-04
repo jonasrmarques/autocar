@@ -1,0 +1,25 @@
+{
+  "autos": [
+    {
+      "id": "1da3",
+      "marca": "Chevrolet",
+      "modelo": "Camaro",
+      "preco": 20000,
+      "ano": 2001
+    },
+    {
+      "id": "7f20",
+      "marca": "Chevrolet",
+      "modelo": "Camaro",
+      "preco": 12312332,
+      "ano": 23123
+    },
+    {
+      "id": "4466",
+      "marca": "Chevrolet",
+      "modelo": "Camaro",
+      "preco": 20000,
+      "ano": 2001
+    }
+  ]
+}

@@ -1,6 +1,24 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Carrois Gothic SC", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(3, 28, 53) 0%,
+    rgba(0, 128, 255, 0.7) 40%,
+    rgba(2, 24, 46, 0.5) 60%,
+    rgba(0, 128, 255, 0.3) 100%
+  );
+}
+
+footer {
+  background: transparent;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
 }

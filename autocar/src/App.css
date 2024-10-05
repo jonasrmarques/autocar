@@ -1,42 +1,87 @@
-.header{
-    background-color: rgb(0, 60, 255);
-    color: white;
-    display: flex;
-    justify-content: center;
+.header {
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.container{
-    display: flex;
-    gap: 10rem;
-    justify-content: center;
+.container {
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 0 0 8px 8px;
+.auto-card {
+  background-color: white;
+
+  width: 15rem;
+  min-height: 20rem;
+  padding: 18px;
+  border-radius: 10px;
 }
 
-.auto-card{
-    background-color: aqua;
-    width: 10rem;
-    padding: 18px;
-
+button {
+  margin: 10px;
+  position: relative;
+  right: 10px;
+  background: none;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 5rem;
+  height: 2rem;
+  transition: 1s;
+  cursor: pointer;
 }
 
-form {
-    display: flex;
-
+button:hover {
+  background-color: blue;
 }
 
-form, .form-card{
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 20rem;
-    gap: 20px;
+.aito-card,
+li {
+  list-style-type: none;
 }
 
+form,
+.form-card {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20rem;
+  height: 25rem;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+input {
+  border: black solid 1px;
+  background: none;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2rem;
+  transition: 1s;
+}
+input:hover {
+  background-color: aquamarine;
+}
+
+input:focus {
+  border-color: blue; /* Muda a cor da borda quando o input é clicado */
+  background-color: lightblue; /* Muda a cor de fundo quando o input é focado */
+  outline: none; /* Remove a borda padrão do navegador */
+}
+
+label,
+input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

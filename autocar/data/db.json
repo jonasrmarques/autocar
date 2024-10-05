@@ -1,25 +1,18 @@
 {
   "autos": [
     {
-      "id": "1da3",
-      "marca": "Chevrolet",
-      "modelo": "Camaro",
-      "preco": 20000,
-      "ano": 2001
+      "id": "832e",
+      "marca": "Fiat",
+      "modelo": "Uno",
+      "preco": 200000,
+      "ano": 2022
     },
     {
-      "id": "7f20",
+      "id": "1e93",
       "marca": "Chevrolet",
       "modelo": "Camaro",
-      "preco": 12312332,
-      "ano": 23123
-    },
-    {
-      "id": "4466",
-      "marca": "Chevrolet",
-      "modelo": "Camaro",
-      "preco": 20000,
-      "ano": 2001
+      "preco": 200000,
+      "ano": 2012
     }
   ]
 }
